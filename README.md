@@ -1,15 +1,16 @@
-# opbot -- an operadic bot meets repl
+# opbot -- an operadic bot
 
 NOTE: This is very much a work-in-progress.
 
 ## Goal
 The initial goals are:
-1. Provide a working copy/wrapper of fiatjaf's excellent `@lntxbot` Telegram bot: https://git.alhur.es/fiatjaf/lntxbot
-2. Abstract out the telegram-specific items/api.
-3. Provide implementations of the bot via other methods such as over email (e.g. in an email-chain rather than a telegram chat room)
-4. More people can then enjoy the great features of the bot (such as the `sats4ads` feature)
+1. Create a bot that cohesively operates over different protocols. Features might be initially similar to/inspired by fiatjaf's excellent `@lntxbot` Telegram bot: https://git.alhur.es/fiatjaf/lntxbot
+2. Provide implementations of the bot via other methods such as over email (e.g. in an email-chain rather than a telegram chat room), or possibly over the lightning network itself!
 
-## Current Considerations?
-1. `@lntxbot` is written in Go, but our wrapper/implemention may not need to be (or should it be?)
-2. How "operadic" (in the mathematical sense) can we make this without slowing down initial development and release process too much? Eventually of course the goal is to have it be fully operadic, but we need to start somewhere!
 
+## Todo
+1. Setup a simple scala build situation for us to explore from.
+2. Experiment with trees in an operadic algebraic sense.
+
+## Done
+0. Write a really simple but incomplete readme file.
