@@ -1,0 +1,9 @@
+.metals/metals.h2.db
+.metals/metals.log
+scala/.bloop/bloop.settings.json
+scala/.bloop/opbotcore.json
+scala/.metals/metals.h2.db
+scala/.metals/metals.lock.db
+scala/.metals/metals.log
+scala/out/
+scala/mill.*
