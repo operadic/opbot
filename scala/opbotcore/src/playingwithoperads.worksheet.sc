@@ -1,1 +1,1 @@
-val stuff = "lllll"
+val hello = println("hello world!")

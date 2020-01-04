@@ -9,8 +9,8 @@ The initial goals are:
 
 
 ## Todo
-1. Setup a simple scala build situation for us to explore from.
 2. Experiment with trees in an operadic algebraic sense.
 
 ## Done
 0. Write a really simple but incomplete readme file.
+1. Setup a simple scala build situation for us to explore from.
